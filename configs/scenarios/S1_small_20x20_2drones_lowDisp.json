@@ -1,0 +1,48 @@
+{
+  "grid_size": 20,
+  "render_mode": "ansi",
+  "render_grid": true,
+  "render_gradient": true,
+  "vector": [
+    1.1,
+    1
+  ],
+  "random_vector": true,
+  "vector_min": [
+    -0.8,
+    -0.8
+  ],
+  "vector_max": [
+    0.8,
+    0.8
+  ],
+  "timestep_limit": 100,
+  "person_amount": 1,
+  "dispersion_start": 0.01,
+  "dispersion_inc": 0.03,
+  "person_initial_position": [
+    10,
+    10
+  ],
+  "person_random_start": true,
+  "sparse_prob_wrapper": false,
+  "step_penalty": -0.001,
+  "search_cost": 0.0,
+  "prob_threshold": 0.02,
+  "search_bonus": 0.02,
+  "drone_amount": 2,
+  "drone_speed": 8,
+  "probability_of_detection": 0.9,
+  "pre_render_time": 3,
+  "drones_positions": [
+    [
+      0,
+      0
+    ],
+    [
+      19,
+      19]
+  ],
+  "num_eval_episodes": 500,
+  "debug": true
+}

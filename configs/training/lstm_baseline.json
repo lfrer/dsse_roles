@@ -1,0 +1,42 @@
+{
+  "algo": "ppo_lstm",
+  "batch_size": 32768,
+  "checkpoint_freq": 20,
+  "checkpoint_score_attr": "env_runners/episode_return_mean",
+  "checkpoint_score_attr_eval": "evaluation/env_runners/episode_return_mean",
+  "clip_range": 0.2,
+  "debug": false,
+  "entropy_coef": 0.001,
+  "evaluation_explore": false,
+  "evaluation_interval": 1,
+  "evaluation_num_episodes": 30,
+  "gamma": 0.995,
+  "keep_checkpoints_num": 5,
+  "lambda": 0.95,
+  "learning_rate": 1.5158910565461515e-05,
+  "lstm_state_size": 64,
+  "max_seq_len": 32,
+  "minibatch_size": 1024,
+  "num_envs": 32,
+  "num_epochs": 5,
+  "num_gpus": 1,
+  "rollout_fragment_length": "auto",
+  "seed": 42,
+  "system_defaults": {
+    "bigger_machine": {
+      "debug": false,
+      "max_concurrent_trials": 2,
+      "num_envs": 8,
+      "num_gpus": 1
+    },
+    "laptop_debug": {
+      "debug": true,
+      "max_concurrent_trials": 1,
+      "num_envs": 3,
+      "num_gpus": 0
+    }
+  },
+  "total_timesteps": 50000000,
+  "use_gae": true,
+  "vf_coef": 0.5
+}
