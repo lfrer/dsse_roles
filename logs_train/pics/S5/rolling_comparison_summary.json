@@ -1,0 +1,71 @@
+{
+  "comparison_name": "S5",
+  "smooth": 5,
+  "max_x": 30000000.0,
+  "plots_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/pics/S5",
+  "runs": {
+    "CNN": {
+      "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_centralized_S5_new_conf/ray_res/DSSE_PPO_Baseline/PPO_CNN/PPO_DSSE_PPO_Baseline_d58d0_00000_0_2026-05-05_13-30-35",
+      "x_column": "timesteps_total",
+      "n_rows": 452
+    },
+    "CNN+Roles": {
+      "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s5/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_ed34e_00000_0_2026-05-05_23-46-52",
+      "x_column": "timesteps_total",
+      "n_rows": 452
+    },
+    "LSTM": {
+      "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S5/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_295e9_00000_0_2026-05-12_15-40-38",
+      "x_column": "timesteps_total",
+      "n_rows": 1501
+    }
+  },
+  "metrics": {
+    "episode_reward_mean": {
+      "CNN": {
+        "column": "env_runners/episode_reward_mean",
+        "last_x": 29963632.0,
+        "last_rolling_mean": 1.6397614975383672,
+        "max_rolling_mean": 1.6397614975383672,
+        "min_rolling_mean": 0.0702865329512894
+      },
+      "CNN+Roles": {
+        "column": "env_runners/episode_reward_mean",
+        "last_x": 29940634.0,
+        "last_rolling_mean": 1.6242112849561496,
+        "max_rolling_mean": 1.649280132059826,
+        "min_rolling_mean": 0.0863800283286119
+      },
+      "LSTM": {
+        "column": "env_runners/episode_reward_mean",
+        "last_x": 29984129.0,
+        "last_rolling_mean": 1.239642924647272,
+        "max_rolling_mean": 1.516328706850012,
+        "min_rolling_mean": 0.09262953367875645
+      }
+    },
+    "episode_len_mean": {
+      "CNN": {
+        "column": "env_runners/episode_len_mean",
+        "last_x": 29963632.0,
+        "last_rolling_mean": 44.905907656810484,
+        "max_rolling_mean": 196.1117478510029,
+        "min_rolling_mean": 44.905907656810484
+      },
+      "CNN+Roles": {
+        "column": "env_runners/episode_len_mean",
+        "last_x": 29940634.0,
+        "last_rolling_mean": 46.86986600878707,
+        "max_rolling_mean": 195.52285714285716,
+        "min_rolling_mean": 44.50280187867589
+      },
+      "LSTM": {
+        "column": "env_runners/episode_len_mean",
+        "last_x": 29984129.0,
+        "last_rolling_mean": 84.0616757044301,
+        "max_rolling_mean": 195.42746113989637,
+        "min_rolling_mean": 60.35757336061516
+      }
+    }
+  }
+}

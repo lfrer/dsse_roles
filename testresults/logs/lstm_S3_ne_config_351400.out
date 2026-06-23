@@ -1,0 +1,239 @@
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/_private/worker.py:2046: FutureWarning: Tip: In future versions of Ray, Ray will no longer override accelerator visible devices env var if num_gpus=0 or num_gpus=None (default). To enable this behavior and turn off this error message, set RAY_ACCEL_ENV_VAR_OVERRIDE_ON_ZERO=0
+  warnings.warn(
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/rllib/algorithms/algorithm.py:527: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+`UnifiedLogger` will be removed in Ray 2.7.
+  return UnifiedLogger(config, logdir, loggers=None)
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `JsonLogger interface is deprecated in favor of the `ray.tune.json.JsonLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `CSVLogger interface is deprecated in favor of the `ray.tune.csv.CSVLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `TBXLogger interface is deprecated in favor of the `ray.tune.tensorboardx.TBXLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+[2026-04-29 10:45:31,410 E 7102 7102] core_worker.cc:2223: Actor with class name: 'RolloutWorker' and ID: '3992c8955c7abfc082e9b89301000000' has constructor arguments in the object store and max_restarts > 0. If the arguments in the object store go out of scope or are lost, the actor restart will fail. See https://github.com/ray-project/ray/issues/53727 for more details.
+[36m(RolloutWorker pid=9558)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=9558)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(pid=gcs_server)[0m [2026-04-29 10:45:45,576 E 8869 8869] (gcs_server) gcs_server.cc:303: Failed to establish connection to the event+metrics exporter agent. Events and metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[33m(raylet)[0m [2026-04-29 10:45:52,680 E 9316 9316] (raylet) main.cc:1032: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=9579)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 31x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)[0m
+[36m(RolloutWorker pid=9579)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=9558)[0m [2026-04-29 10:45:56,011 E 9558 13457] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[2026-04-29 10:45:58,903 E 7102 9545] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/rllib/algorithms/algorithm.py:527: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+`UnifiedLogger` will be removed in Ray 2.7.
+  return UnifiedLogger(config, logdir, loggers=None)
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `JsonLogger interface is deprecated in favor of the `ray.tune.json.JsonLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `CSVLogger interface is deprecated in favor of the `ray.tune.csv.CSVLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `TBXLogger interface is deprecated in favor of the `ray.tune.tensorboardx.TBXLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+[36m(RolloutWorker pid=9640)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=9640)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(pid=9624)[0m [2026-04-29 10:45:58,876 E 9624 17022] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 71x across cluster][0m
+[36m(RolloutWorker pid=9627)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=9627)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=23905)[0m [2026-04-29 10:51:14,569 E 23905 24001] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=24928)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=24928)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=24928)[0m [2026-04-29 10:51:16,525 E 24928 25213] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 23x across cluster][0m
+[36m(RolloutWorker pid=32166)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=32166)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=32170)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=32170)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=32166)[0m [2026-04-29 10:53:12,749 E 32166 32208] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=33604)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=33604)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=32170)[0m [2026-04-29 10:53:12,943 E 32170 32344] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=44392)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=44392)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=33604)[0m [2026-04-29 10:53:15,340 E 33604 33914] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=44394)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=44394)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=44392)[0m [2026-04-29 10:55:21,086 E 44392 44549] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=45921)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=45921)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=44394)[0m [2026-04-29 10:55:21,047 E 44394 44521] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=57497)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=57497)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=45921)[0m [2026-04-29 10:55:23,771 E 45921 46273] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=57495)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=57495)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=57490)[0m [2026-04-29 10:57:40,442 E 57490 57638] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=58948)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=58948)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=57494)[0m [2026-04-29 10:57:40,480 E 57494 57669] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=66134)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=66134)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=58948)[0m [2026-04-29 10:57:42,883 E 58948 59234] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=66137)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=66137)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=66134)[0m [2026-04-29 10:59:40,795 E 66134 66181] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=67619)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=67619)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=66137)[0m [2026-04-29 10:59:40,893 E 66137 66247] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=71386)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=71386)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=67619)[0m [2026-04-29 10:59:43,522 E 67619 67945] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=71387)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=71387)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=71382)[0m [2026-04-29 11:01:35,353 E 71382 71474] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=72836)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=72836)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=71380)[0m [2026-04-29 11:01:35,372 E 71380 71507] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=8442)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=8442)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=72836)[0m [2026-04-29 11:01:37,972 E 72836 73146] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=8439)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=8439)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=8442)[0m [2026-04-29 11:03:48,832 E 8442 8595] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=10545)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=10545)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=8439)[0m [2026-04-29 11:03:48,798 E 8439 8564] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=15761)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=15761)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=10545)[0m [2026-04-29 11:03:51,148 E 10545 10851] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=15765)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=15765)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=15761)[0m [2026-04-29 11:06:04,209 E 15761 15868] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=17205)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=17205)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=15760)[0m [2026-04-29 11:06:04,319 E 15760 15902] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=17205)[0m [2026-04-29 11:06:06,887 E 17205 17605] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 30x across cluster][0m
+USING TEST_TRAINED_LSTM FROM: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/src/tests/test_trained_lstm.py
+{'grid_size': 30,
+ 'render_mode': 'ansi',
+ 'render_grid': True,
+ 'render_gradient': True,
+ 'vector': [1.1, 1],
+ 'random_vector': True,
+ 'vector_min': [-0.8, -0.8],
+ 'vector_max': [0.8, 0.8],
+ 'timestep_limit': 150,
+ 'person_amount': 1,
+ 'dispersion_start': 0.01,
+ 'dispersion_inc': 0.03,
+ 'person_initial_position': [15, 15],
+ 'person_random_start': True,
+ 'sparse_prob_wrapper': False,
+ 'step_penalty': -0.001,
+ 'search_cost': 0.0,
+ 'prob_threshold': 0.02,
+ 'search_bonus': 0.02,
+ 'drone_amount': 4,
+ 'drone_speed': 8,
+ 'probability_of_detection': 0.9,
+ 'pre_render_time': 3,
+ 'drones_positions': [[0, 0], [0, 29], [29, 0], [29, 29]],
+ 'num_eval_episodes': 500,
+ 'debug': True}
+Pre render time: 3 minutes
+Pre render steps: 11
+Found 10 checkpoints
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000140
+[36m(RolloutWorker pid=9558)[0m Pre render time: 3 minutes
+[36m(RolloutWorker pid=9558)[0m Pre render steps: 11
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.924
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000141
+[36m(RolloutWorker pid=9640)[0m Pre render time: 3 minutes[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=9640)[0m Pre render steps: 11[32m [repeated 32x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.938
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000142
+[36m(RolloutWorker pid=9625)[0m Pre render time: 3 minutes[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=9625)[0m Pre render steps: 11[32m [repeated 32x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.948
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000143
+[36m(RolloutWorker pid=32166)[0m Pre render time: 3 minutes[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=32166)[0m Pre render steps: 11[32m [repeated 32x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.944
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000144
+[36m(RolloutWorker pid=44394)[0m Pre render time: 3 minutes[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=44394)[0m Pre render steps: 11[32m [repeated 32x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.922
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000145
+[36m(RolloutWorker pid=57495)[0m Pre render time: 3 minutes[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=57495)[0m Pre render steps: 11[32m [repeated 32x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.94
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000146
+[36m(RolloutWorker pid=66137)[0m Pre render time: 3 minutes[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=66137)[0m Pre render steps: 11[32m [repeated 32x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.954
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000147
+[36m(RolloutWorker pid=71387)[0m Pre render time: 3 minutes[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=71387)[0m Pre render steps: 11[32m [repeated 32x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.93
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000148
+[36m(RolloutWorker pid=8442)[0m Pre render time: 3 minutes[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=8442)[0m Pre render steps: 11[32m [repeated 32x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.924
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000149
+[36m(RolloutWorker pid=15761)[0m Pre render time: 3 minutes[32m [repeated 32x across cluster][0m
+[36m(RolloutWorker pid=15761)[0m Pre render steps: 11[32m [repeated 32x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+is_recurrent: True
+init_state shapes: [(64,), (64,)]
+  success_rate = 0.928
+
+Best checkpoint:
+/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S3_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0d8bb_00000_0_2026-04-28_12-00-14/checkpoint_000146
+Best success_rate: 0.954
+
+Saved best evaluation only:
+  Summary: testresults/LSTM/S3/eval_metrics_lstm_summary_PPO_LSTM_checkpoint_000146.json
+  Episode metrics: testresults/LSTM/S3/eval_metrics_lstm_PPO_LSTM_checkpoint_000146.jsonl
+[36m(RolloutWorker pid=17205)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=17205)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m

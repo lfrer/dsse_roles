@@ -1,0 +1,17 @@
+{
+  "run_name": "cnn_roles_S1",
+  "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_S1/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_75b5a_00000_0_2026-04-20_12-48-26",
+  "plots_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/pics/cnn_roles_S1",
+  "episode_reward_mean": {
+    "column": "env_runners/episode_reward_mean",
+    "last": 1.7074753694581275,
+    "max": 1.7474883720930234,
+    "min": 0.0293548387096774
+  },
+  "episode_len_mean": {
+    "column": "env_runners/episode_len_mean",
+    "last": 21.87807881773399,
+    "max": 100.21505376344086,
+    "min": 19.813148788927336
+  }
+}

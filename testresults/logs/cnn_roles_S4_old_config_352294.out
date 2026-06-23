@@ -1,0 +1,330 @@
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/_private/worker.py:2046: FutureWarning: Tip: In future versions of Ray, Ray will no longer override accelerator visible devices env var if num_gpus=0 or num_gpus=None (default). To enable this behavior and turn off this error message, set RAY_ACCEL_ENV_VAR_OVERRIDE_ON_ZERO=0
+  warnings.warn(
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/rllib/algorithms/algorithm.py:527: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+`UnifiedLogger` will be removed in Ray 2.7.
+  return UnifiedLogger(config, logdir, loggers=None)
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `JsonLogger interface is deprecated in favor of the `ray.tune.json.JsonLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `CSVLogger interface is deprecated in favor of the `ray.tune.csv.CSVLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `TBXLogger interface is deprecated in favor of the `ray.tune.tensorboardx.TBXLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+[2026-05-02 07:49:37,220 E 35667 35667] core_worker.cc:2223: Actor with class name: 'RolloutWorker' and ID: '0592810d669cd5d62b2a685a01000000' has constructor arguments in the object store and max_restarts > 0. If the arguments in the object store go out of scope or are lost, the actor restart will fail. See https://github.com/ray-project/ray/issues/53727 for more details.
+[36m(RolloutWorker pid=39028)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=39028)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(pid=gcs_server)[0m [2026-05-02 07:49:50,014 E 38606 38606] (gcs_server) gcs_server.cc:303: Failed to establish connection to the event+metrics exporter agent. Events and metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[33m(raylet)[0m [2026-05-02 07:49:58,788 E 38845 38845] (raylet) main.cc:1032: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=39050)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)[0m
+[36m(RolloutWorker pid=39050)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=39028)[0m [2026-05-02 07:50:00,577 E 39028 40910] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[2026-05-02 07:50:03,086 E 35667 38995] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/rllib/algorithms/algorithm.py:527: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+`UnifiedLogger` will be removed in Ray 2.7.
+  return UnifiedLogger(config, logdir, loggers=None)
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `JsonLogger interface is deprecated in favor of the `ray.tune.json.JsonLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `CSVLogger interface is deprecated in favor of the `ray.tune.csv.CSVLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+/vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/ray/tune/logger/unified.py:53: RayDeprecationWarning: This API is deprecated and may be removed in future Ray releases. You could suppress this warning by setting env variable PYTHONWARNINGS="ignore::DeprecationWarning"
+The `TBXLogger interface is deprecated in favor of the `ray.tune.tensorboardx.TBXLoggerCallback` interface and will be removed in Ray 2.7.
+  self._loggers.append(cls(self.config, self.logdir, self.trial))
+[36m(RolloutWorker pid=39023)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=39023)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(pid=39005)[0m [2026-05-02 07:50:03,058 E 39005 42958] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 71x across cluster][0m
+[36m(RolloutWorker pid=39040)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=39040)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=39033)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=39033)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=56668)[0m [2026-05-02 08:06:36,884 E 56668 56799] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=57483)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=57483)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=57483)[0m [2026-05-02 08:06:38,358 E 57483 57819] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 20x across cluster][0m
+[36m(RolloutWorker pid=65575)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=65575)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=65576)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=65576)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=65571)[0m [2026-05-02 08:14:35,478 E 65571 65688] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=66672)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=66672)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=65572)[0m [2026-05-02 08:14:35,540 E 65572 65717] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=73434)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=73434)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=66672)[0m [2026-05-02 08:14:38,179 E 66672 67266] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=73433)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=73433)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=73434)[0m [2026-05-02 08:22:25,867 E 73434 73551] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=1614)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=1614)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=73433)[0m [2026-05-02 08:22:25,851 E 73433 73523] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=9019)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=9019)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=1614)[0m [2026-05-02 08:22:28,447 E 1614 2032] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=8965)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=8965)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=8960)[0m [2026-05-02 08:30:04,864 E 8960 9165] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=10351)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=10351)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=8963)[0m [2026-05-02 08:30:04,881 E 8963 9189] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=18825)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=18825)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=10351)[0m [2026-05-02 08:30:07,064 E 10351 10647] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=18835)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=18835)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=18825)[0m [2026-05-02 08:37:56,504 E 18825 19074] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=20291)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=20291)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=18829)[0m [2026-05-02 08:37:56,504 E 18829 19094] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=27194)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=27194)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=20291)[0m [2026-05-02 08:37:58,593 E 20291 20588] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=27195)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=27195)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=27187)[0m [2026-05-02 08:45:48,106 E 27187 27294] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=28557)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=28557)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=27190)[0m [2026-05-02 08:45:48,105 E 27190 27295] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=34365)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=34365)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=28557)[0m [2026-05-02 08:45:50,371 E 28557 28862] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=34364)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=34364)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=34365)[0m [2026-05-02 08:53:35,953 E 34365 34531] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=35686)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=35686)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=34364)[0m [2026-05-02 08:53:36,038 E 34364 34611] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=44345)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=44345)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=35686)[0m [2026-05-02 08:53:38,073 E 35686 36057] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=44344)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[36m(RolloutWorker pid=44344)[0m   from pkg_resources import resource_stream, resource_exists
+[36m(RolloutWorker pid=44339)[0m [2026-05-02 09:01:38,759 E 44339 44427] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=45711)[0m /vol/fob-vol1/nebenf23/baierluc/.conda/envs/dsse312/lib/python3.12/site-packages/pygame/pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=45711)[0m   from pkg_resources import resource_stream, resource_exists[32m [repeated 29x across cluster][0m
+[36m(RolloutWorker pid=44340)[0m [2026-05-02 09:01:38,791 E 44340 44455] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14
+[36m(RolloutWorker pid=45711)[0m [2026-05-02 09:01:41,043 E 45711 46029] core_worker_process.cc:842: Failed to establish connection to the metrics exporter agent. Metrics will not be exported. Exporter agent status: RpcError: Running out of retries to initialize the metrics agent. rpc_code: 14[32m [repeated 29x across cluster][0m
+{'grid_size': 30,
+ 'render_mode': 'ansi',
+ 'render_grid': True,
+ 'render_gradient': True,
+ 'vector': [1.1, 1],
+ 'random_vector': True,
+ 'vector_min': [-0.8, -0.8],
+ 'vector_max': [0.8, 0.8],
+ 'timestep_limit': 150,
+ 'person_amount': 1,
+ 'dispersion_start': 0.01,
+ 'dispersion_inc': 0.06,
+ 'person_initial_position': [15, 15],
+ 'person_random_start': True,
+ 'sparse_prob_wrapper': False,
+ 'step_penalty': -0.001,
+ 'search_cost': 0.0,
+ 'prob_threshold': 0.02,
+ 'search_bonus': 0.02,
+ 'drone_amount': 4,
+ 'drone_speed': 8,
+ 'probability_of_detection': 0.9,
+ 'pre_render_time': 3,
+ 'drones_positions': [[0, 0], [0, 29], [29, 0], [29, 29]],
+ 'num_eval_episodes': 500,
+ 'debug': True}
+Pre render time: 3 minutes
+Pre render steps: 11
+Found 10 checkpoints
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000169
+[36m(RolloutWorker pid=39028)[0m Pre render time: 3 minutes
+[36m(RolloutWorker pid=39028)[0m Pre render steps: 11
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f85181bd3a0>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.498
+  role_props_all = {1: 0.08128644727894661, 0: 0.9187135527210534}
+  role_entropy = {'role_entropy_mean_all': 0.0019717151879784746, 'role_entropy_std_all': 0.03018977849367461, 'role_entropy_mean_by_agent': {'drone0': 0.001590405763597997, 'drone1': 0.002186066585706716, 'drone2': 0.003556219863482286, 'drone3': 0.0005541685391268982}}
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000170
+[36m(RolloutWorker pid=39040)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=39040)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f557bac8ad0>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.51
+  role_props_all = {1: 0.07569141952022676, 0: 0.9243085804797733}
+  role_entropy = {'role_entropy_mean_all': 0.0018798272917872842, 'role_entropy_std_all': 0.02986530946893824, 'role_entropy_mean_by_agent': {'drone0': 0.0021141399428641983, 'drone1': 0.0023672951136699473, 'drone2': 0.0023128776713940646, 'drone3': 0.0007249964392209263}}
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000171
+[36m(RolloutWorker pid=39033)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=39033)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f8504501f10>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.496
+  role_props_all = {1: 0.07081216720729543, 0: 0.9291878327927046}
+  role_entropy = {'role_entropy_mean_all': 0.0022961129428920373, 'role_entropy_std_all': 0.03230935837897486, 'role_entropy_mean_by_agent': {'drone0': 0.0024835467575820675, 'drone1': 0.002203000723686317, 'drone2': 0.003918570059453054, 'drone3': 0.0005793342308467099}}
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000172
+[36m(RolloutWorker pid=65576)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=65576)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f84358d0ad0>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.518
+  role_props_all = {1: 0.07692830125592962, 0: 0.9230716987440704}
+  role_entropy = {'role_entropy_mean_all': 0.002051247237708406, 'role_entropy_std_all': 0.030373805020377398, 'role_entropy_mean_by_agent': {'drone0': 0.0021774368510297914, 'drone1': 0.0022368051027129424, 'drone2': 0.0032824662675475834, 'drone3': 0.0005082807295433068}}
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000173
+[36m(RolloutWorker pid=73434)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=73434)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f557babdeb0>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.52
+  role_props_all = {1: 0.07627091411555517, 0: 0.9237290858844448}
+  role_entropy = {'role_entropy_mean_all': 0.002229107102703437, 'role_entropy_std_all': 0.0320912047519634, 'role_entropy_mean_by_agent': {'drone0': 0.0023863096502352845, 'drone1': 0.002051057161708756, 'drone2': 0.0038641706603971004, 'drone3': 0.0006148909384726084}}
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000174
+[36m(RolloutWorker pid=8965)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=8965)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f85045c7dd0>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.492
+  role_props_all = {1: 0.0736436927296528, 0: 0.9263563072703472}
+  role_entropy = {'role_entropy_mean_all': 0.0019255781388984104, 'role_entropy_std_all': 0.0296409470784902, 'role_entropy_mean_by_agent': {'drone0': 0.0022529359710876454, 'drone1': 0.0021795462568366037, 'drone2': 0.0024948493057351485, 'drone3': 0.0007749810219342437}}
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000175
+[36m(RolloutWorker pid=18828)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=18828)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f8504559e50>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.496
+  role_props_all = {1: 0.06747855706488283, 0: 0.9325214429351172}
+  role_entropy = {'role_entropy_mean_all': 0.0016923023504427995, 'role_entropy_std_all': 0.02778891496892895, 'role_entropy_mean_by_agent': {'drone0': 0.002333810771624818, 'drone1': 0.0019273161090622053, 'drone2': 0.0019926099365792063, 'drone3': 0.0005154725845049659}}
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000176
+[36m(RolloutWorker pid=27195)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=27195)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f557ba8e480>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.5
+  role_props_all = {0: 0.9396567872455563, 1: 0.06034321275444366}
+  role_entropy = {'role_entropy_mean_all': 0.0015110974685351476, 'role_entropy_std_all': 0.026115300349843475, 'role_entropy_mean_by_agent': {'drone0': 0.0021747426809340963, 'drone1': 0.001567581057481483, 'drone2': 0.001951419693649901, 'drone3': 0.00035064644207511044}}
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000177
+[36m(RolloutWorker pid=34365)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=34365)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f8504606990>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.474
+  role_props_all = {1: 0.05516427207877022, 0: 0.9448357279212298}
+  role_entropy = {'role_entropy_mean_all': 0.0014452876065187356, 'role_entropy_std_all': 0.025164060283725927, 'role_entropy_mean_by_agent': {'drone0': 0.002344180593681406, 'drone1': 0.001605844497263238, 'drone2': 0.001522785968886053, 'drone3': 0.0003083393662442449}}
+
+Evaluating checkpoint: /vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000178
+[36m(RolloutWorker pid=44344)[0m Pre render time: 3 minutes[32m [repeated 31x across cluster][0m
+[36m(RolloutWorker pid=44344)[0m Pre render steps: 11[32m [repeated 31x across cluster][0m
+Pre render time: 3 minutes
+Pre render steps: 11
+=== DEBUG: RLlib setup ===
+Policy object: <class 'src.policies.r3dm_cnn_policy.R3DMRolePPOTorchPolicyCNN'>
+Policy is_recurrent(): False
+Initial state len: 0
+Initial state shapes: []
+model: {'fcnet_hiddens': [256, 256], 'fcnet_activation': 'tanh', 'fcnet_weights_initializer': None, 'fcnet_weights_initializer_config': None, 'fcnet_bias_initializer': None, 'fcnet_bias_initializer_config': None, 'conv_filters': None, 'conv_activation': 'relu', 'conv_kernel_initializer': None, 'conv_kernel_initializer_config': None, 'conv_bias_initializer': None, 'conv_bias_initializer_config': None, 'conv_transpose_kernel_initializer': None, 'conv_transpose_kernel_initializer_config': None, 'conv_transpose_bias_initializer': None, 'conv_transpose_bias_initializer_config': None, 'post_fcnet_hiddens': [], 'post_fcnet_activation': 'relu', 'post_fcnet_weights_initializer': None, 'post_fcnet_weights_initializer_config': None, 'post_fcnet_bias_initializer': None, 'post_fcnet_bias_initializer_config': None, 'free_log_std': False, 'log_std_clip_param': 20.0, 'no_final_linear': False, 'vf_share_layers': False, 'use_lstm': False, 'max_seq_len': 20, 'lstm_cell_size': 256, 'lstm_use_prev_action': False, 'lstm_use_prev_reward': False, 'lstm_weights_initializer': None, 'lstm_weights_initializer_config': None, 'lstm_bias_initializer': None, 'lstm_bias_initializer_config': None, '_time_major': False, 'use_attention': False, 'attention_num_transformer_units': 1, 'attention_dim': 64, 'attention_num_heads': 1, 'attention_head_dim': 32, 'attention_memory_inference': 50, 'attention_memory_training': 50, 'attention_position_wise_mlp_dim': 32, 'attention_init_gru_gate_bias': 2.0, 'attention_use_n_prev_actions': 0, 'attention_use_n_prev_rewards': 0, 'framestack': True, 'dim': 84, 'grayscale': False, 'zero_mean': True, 'custom_model': 'CNNModelR3DM', 'custom_model_config': {'num_roles': 2, 'role_emb_dim': 32, 'role_temp': 1.0, 'use_gumbel_roles': True, 'gumbel_tau': 1.5, 'gumbel_tau_start': 1.5, 'gumbel_tau_end': 0.5, 'gumbel_anneal_steps': 15000000, 'gumbel_hard': False, 'dyn_horizon': 8, 'nce_temperature': 0.2, 'aux_loss_coef': 0.02, 'role_mi_coef': 0.03, 'intrinsic_reward_coef': 0.0, 'max_nce_pairs_loss': 1024, 'max_nce_pairs_intrinsic': 512}, 'custom_action_dist': None, 'custom_preprocessor': None, 'encoder_latent_dim': None, 'always_check_shapes': False, 'lstm_use_prev_action_reward': -1, '_use_default_native_models': -1, '_disable_preprocessor_api': True, '_disable_action_flattening': False}
+multi_agent: <bound method AlgorithmConfig.multi_agent of <ray.rllib.algorithms.ppo.ppo.PPOConfig object at 0x7f8435519be0>>
+=== END DEBUG ===
+  is_recurrent: False
+  success_rate = 0.54
+  role_props_all = {1: 0.05701744983707769, 0: 0.9429825501629223}
+  role_entropy = {'role_entropy_mean_all': 0.0014760228550246453, 'role_entropy_std_all': 0.026030679929888636, 'role_entropy_mean_by_agent': {'drone0': 0.0027197096746158765, 'drone1': 0.0020132462727147178, 'drone2': 0.0007463483864744305, 'drone3': 0.00042478708629355583}}
+
+Best checkpoint:
+/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_4fd67_00000_0_2026-04-30_12-56-59/checkpoint_000178
+Best success_rate: 0.54
+
+Saved best evaluation only:
+  Summary: testresults/CNN_R3DM/S4/eval_metrics_cnn_r3dm_summary_PPO_CNN_R3DM_checkpoint_000178.json
+  Episode metrics: testresults/CNN_R3DM/S4/eval_metrics_cnn_r3dm_PPO_CNN_R3DM_checkpoint_000178.jsonl
+[36m(RolloutWorker pid=45711)[0m Pre render time: 3 minutes[32m [repeated 30x across cluster][0m
+[36m(RolloutWorker pid=45711)[0m Pre render steps: 11[32m [repeated 30x across cluster][0m

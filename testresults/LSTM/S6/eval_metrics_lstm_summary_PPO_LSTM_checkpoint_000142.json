@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "n_episodes": 500,
+    "success_rate": 0.474,
+    "reward_mean": 0.88596,
+    "reward_median": 0.0,
+    "reward_p10": 0.0,
+    "reward_p50": 0.0,
+    "reward_p90": 1.955,
+    "steps_mean": 118.608,
+    "steps_median": 201.0,
+    "steps_p10": 10.0,
+    "steps_p50": 201.0,
+    "steps_p90": 201.0,
+    "time_to_find_mean": 27.17721518987342,
+    "time_to_find_median": 21.0,
+    "time_to_find_p10": 8.0,
+    "time_to_find_p50": 21.0,
+    "time_to_find_p90": 40.0,
+    "unique_cells_total_mean": 135.824,
+    "revisit_fraction_mean": 0.5502658767960643,
+    "mean_revisit_gap_mean": 1.0095689036841597,
+    "search_actions_mean": 256.396,
+    "repeated_search_fraction_mean": 0.6764919245935032,
+    "co_occupancy_fraction_mean": 0.5725326654643944,
+    "mean_pairwise_distance_mean": 12.434223328819549,
+    "mean_prob_at_visit_mean": 0.005804587229506829,
+    "mean_prob_at_search_mean": 0.03151362708229506,
+    "entropy_drop_mean": -3.544029609491255,
+    "backtrack_rate_mean": 0.0021225018114169915,
+    "stay_rate_mean": 0.49673714918399653
+  },
+  "run_info": {
+    "checkpoint": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S6/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_e4865_00000_0_2026-05-21_12-50-34/checkpoint_000142",
+    "scenario": "configs/scenarios/S6_large_40x40_6drones_highDisp.json",
+    "model": "CNNLSTMModel"
+  },
+  "episodes_jsonl": "testresults/LSTM/_tmp/S6/eval_metrics_lstm_PPO_LSTM_checkpoint_000142.jsonl"
+}

@@ -1,0 +1,248 @@
+{
+  "summary": {
+    "n_episodes": 500,
+    "success_rate": 0.742,
+    "reward_mean": 1.37636,
+    "reward_median": 1.8599999999999999,
+    "reward_p10": 0.0,
+    "reward_p50": 1.8599999999999999,
+    "reward_p90": 1.95,
+    "steps_mean": 74.128,
+    "steps_median": 29.0,
+    "steps_p10": 11.0,
+    "steps_p50": 29.0,
+    "steps_p90": 201.0,
+    "time_to_find_mean": 30.013477088948786,
+    "time_to_find_median": 23.0,
+    "time_to_find_p10": 9.0,
+    "time_to_find_p50": 23.0,
+    "time_to_find_p90": 61.0,
+    "unique_cells_total_mean": 123.474,
+    "revisit_fraction_mean": 0.3979968016589946,
+    "mean_revisit_gap_mean": 0.9829806631147103,
+    "search_actions_mean": 255.056,
+    "repeated_search_fraction_mean": 0.7365734258461828,
+    "co_occupancy_fraction_mean": 0.40711115079086924,
+    "mean_pairwise_distance_mean": 15.777813171556813,
+    "mean_prob_at_visit_mean": 0.016592197706326736,
+    "mean_prob_at_search_mean": 0.10040100746162867,
+    "entropy_drop_mean": -3.423575821452533,
+    "backtrack_rate_mean": 0.0034975124378109454,
+    "stay_rate_mean": 0.3623907252291311
+  },
+  "run_info": {
+    "checkpoint": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s5/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_ed34e_00000_0_2026-05-05_23-46-52/checkpoint_000042",
+    "scenario": "configs/scenarios/S5_large_40x40_6drones_lowDisp.json",
+    "model": "CNNModelR3DM"
+  },
+  "episodes_jsonl": "testresults/CNN_R3DM/_tmp/S5/eval_metrics_cnn_r3dm_PPO_CNN_R3DM_checkpoint_000042.jsonl",
+  "role_0_fraction_mean": 0.5805789134050312,
+  "role_0_fraction_std": 0.2565782472528347,
+  "role_1_fraction_mean": 0.41942108659496885,
+  "role_1_fraction_std": 0.2565782472528347,
+  "role_entropy_mean_episode_mean": 0.012278821414025424,
+  "role_entropy_mean_episode_std": 0.023420588173659575,
+  "role_entropy_std_episode_mean": 0.05201986389238853,
+  "role_entropy_std_episode_std": 0.04933629798917746,
+  "role_switches_total_mean": 12.078,
+  "role_switches_total_std": 51.285825683126134,
+  "role_switch_rate_episode_mean": 0.02216571901642788,
+  "role_switch_rate_episode_std": 0.043321842719046065,
+  "role_0_search_rate_mean": 0.3325819982610564,
+  "role_0_search_rate_std": 0.2981597489048409,
+  "role_1_search_rate_mean": 0.21302423672425477,
+  "role_1_search_rate_std": 0.31290879135494615,
+  "role_0_stay_rate_mean": 0.34003914311554084,
+  "role_0_stay_rate_std": 0.3278873530932034,
+  "role_1_stay_rate_mean": 0.22924053954970697,
+  "role_1_stay_rate_std": 0.3328217106281927,
+  "role_0_backtrack_rate_mean": 0.005596340478015921,
+  "role_0_backtrack_rate_std": 0.05309390553101669,
+  "role_1_backtrack_rate_mean": 0.003375705649785062,
+  "role_1_backtrack_rate_std": 0.038088746039519665,
+  "role_0_visit_prob_mean_mean": 0.02155927672280396,
+  "role_0_visit_prob_mean_std": 0.02389463611999044,
+  "role_1_visit_prob_mean_mean": 0.01142013067911715,
+  "role_1_visit_prob_mean_std": 0.018741547693643276,
+  "role_0_search_prob_mean_mean": 0.1072664304973744,
+  "role_0_search_prob_mean_std": 0.1349103537382808,
+  "role_1_search_prob_mean_mean": 0.08813247314806837,
+  "role_1_search_prob_mean_std": 0.13106267200541125,
+  "role_pair_dist_0_0_mean_mean": 12.223700783816751,
+  "role_pair_dist_0_0_mean_std": 9.35503472398735,
+  "role_pair_dist_0_1_mean_mean": 23.406445146764796,
+  "role_pair_dist_0_1_mean_std": 6.44859978278196,
+  "role_pair_dist_1_1_mean_mean": 14.394790243409,
+  "role_pair_dist_1_1_mean_std": 9.327211648789456,
+  "role_pair_close_rate_0_0_mean": 0.2770172751061923,
+  "role_pair_close_rate_0_0_std": 0.31207640232932243,
+  "role_pair_close_rate_0_1_mean": 0.03164467060942467,
+  "role_pair_close_rate_0_1_std": 0.0886194781955064,
+  "role_pair_close_rate_1_1_mean": 0.23462520863042247,
+  "role_pair_close_rate_1_1_std": 0.3641460883966622,
+  "role_pair_same_cell_rate_0_0_mean": 0.18444483217633661,
+  "role_pair_same_cell_rate_0_0_std": 0.26950902329294385,
+  "role_pair_same_cell_rate_0_1_mean": 0.004133474893720317,
+  "role_pair_same_cell_rate_0_1_std": 0.02179265566508296,
+  "role_pair_same_cell_rate_1_1_mean": 0.1806780643914259,
+  "role_pair_same_cell_rate_1_1_std": 0.3294682772049212,
+  "role_counts_all": {
+    "1": 96168,
+    "0": 126216
+  },
+  "role_props_all": {
+    "1": 0.4324411828189078,
+    "0": 0.5675588171810921
+  },
+  "role_counts_by_agent": {
+    "drone0": {
+      "1": 14999,
+      "0": 22065
+    },
+    "drone1": {
+      "0": 26704,
+      "1": 10360
+    },
+    "drone2": {
+      "1": 22518,
+      "0": 14546
+    },
+    "drone3": {
+      "0": 25697,
+      "1": 11367
+    },
+    "drone4": {
+      "1": 19984,
+      "0": 17080
+    },
+    "drone5": {
+      "1": 16940,
+      "0": 20124
+    }
+  },
+  "role_props_by_agent": {
+    "drone0": {
+      "1": 0.404678394129074,
+      "0": 0.595321605870926
+    },
+    "drone1": {
+      "0": 0.7204834880207209,
+      "1": 0.27951651197927907
+    },
+    "drone2": {
+      "1": 0.6075437081804447,
+      "0": 0.3924562918195554
+    },
+    "drone3": {
+      "0": 0.6933142672134686,
+      "1": 0.3066857327865314
+    },
+    "drone4": {
+      "1": 0.5391754802503778,
+      "0": 0.4608245197496223
+    },
+    "drone5": {
+      "1": 0.4570472695877401,
+      "0": 0.5429527304122599
+    }
+  },
+  "role_entropy": {
+    "role_entropy_mean_all": 0.019723308729206007,
+    "role_entropy_std_all": 0.0948452740924017,
+    "role_entropy_mean_by_agent": {
+      "drone0": 0.021829814920581864,
+      "drone1": 0.01573961573355398,
+      "drone2": 0.022045995215820062,
+      "drone3": 0.01927110889634463,
+      "drone4": 0.02092312344096626,
+      "drone5": 0.018530194167969253
+    }
+  },
+  "role_episode_count": 500,
+  "role_episode_preview": [
+    {
+      "role_0_fraction": 0.34375,
+      "role_1_fraction": 0.65625,
+      "role_entropy_mean_episode": 2.8958777625777244e-06,
+      "role_entropy_std_episode": 2.8218352933274802e-05,
+      "role_switches_total": 1,
+      "role_switch_rate_episode": 0.010416666666666666,
+      "role_0_search_rate": 0.030303030303030304,
+      "role_1_search_rate": 0.0,
+      "role_0_stay_rate": 0.0,
+      "role_1_stay_rate": 0.0,
+      "role_0_backtrack_rate": 0.0,
+      "role_1_backtrack_rate": 0.0,
+      "role_0_visit_prob_mean": 0.00031366092011784065,
+      "role_1_visit_prob_mean": 0.00022537662956962577,
+      "role_0_search_prob_mean": 0.01035081036388874,
+      "role_1_search_prob_mean": NaN,
+      "role_pair_dist_0_0_mean": 11.6889863472773,
+      "role_pair_dist_0_1_mean": 28.166366229034942,
+      "role_pair_dist_1_1_mean": 26.90821760076052,
+      "role_pair_close_rate_0_0": 0.0,
+      "role_pair_close_rate_0_1": 0.0,
+      "role_pair_close_rate_1_1": 0.0,
+      "role_pair_same_cell_rate_0_0": 0.0,
+      "role_pair_same_cell_rate_0_1": 0.0,
+      "role_pair_same_cell_rate_1_1": 0.0,
+      "episode_idx": 0
+    },
+    {
+      "role_0_fraction": 0.44047619047619047,
+      "role_1_fraction": 0.5595238095238095,
+      "role_entropy_mean_episode": 0.028961311011840213,
+      "role_entropy_std_episode": 0.1115771640198975,
+      "role_switches_total": 11,
+      "role_switch_rate_episode": 0.03273809523809524,
+      "role_0_search_rate": 0.13513513513513514,
+      "role_1_search_rate": 0.9361702127659575,
+      "role_0_stay_rate": 0.12162162162162163,
+      "role_1_stay_rate": 0.9148936170212766,
+      "role_0_backtrack_rate": 0.0,
+      "role_1_backtrack_rate": 0.0,
+      "role_0_visit_prob_mean": 0.004521850655925695,
+      "role_1_visit_prob_mean": 0.05221381332913543,
+      "role_0_search_prob_mean": 0.02701039093080908,
+      "role_1_search_prob_mean": 0.05193925831091209,
+      "role_pair_dist_0_0_mean": 17.990539499277702,
+      "role_pair_dist_0_1_mean": 14.960302550571077,
+      "role_pair_dist_1_1_mean": 1.0338159380263532,
+      "role_pair_close_rate_0_0": 0.023809523809523808,
+      "role_pair_close_rate_0_1": 0.17763157894736842,
+      "role_pair_close_rate_1_1": 0.6598984771573604,
+      "role_pair_same_cell_rate_0_0": 0.01020408163265306,
+      "role_pair_same_cell_rate_0_1": 0.0,
+      "role_pair_same_cell_rate_1_1": 0.20558375634517767,
+      "episode_idx": 1
+    },
+    {
+      "role_0_fraction": 0.7105263157894737,
+      "role_1_fraction": 0.2894736842105263,
+      "role_entropy_mean_episode": 0.002915633732149715,
+      "role_entropy_std_episode": 0.03006734014420205,
+      "role_switches_total": 1,
+      "role_switch_rate_episode": 0.008771929824561403,
+      "role_0_search_rate": 0.14814814814814814,
+      "role_1_search_rate": 0.0,
+      "role_0_stay_rate": 0.12345679012345678,
+      "role_1_stay_rate": 0.0,
+      "role_0_backtrack_rate": 0.0,
+      "role_1_backtrack_rate": 0.0,
+      "role_0_visit_prob_mean": 0.00520273885797256,
+      "role_1_visit_prob_mean": 7.620918688477319e-07,
+      "role_0_search_prob_mean": 0.029060271564732492,
+      "role_1_search_prob_mean": NaN,
+      "role_pair_dist_0_0_mean": 24.586878087259734,
+      "role_pair_dist_0_1_mean": 29.78705593716329,
+      "role_pair_dist_1_1_mean": 20.18471201531901,
+      "role_pair_close_rate_0_0": 0.022388059701492536,
+      "role_pair_close_rate_0_1": 0.014598540145985401,
+      "role_pair_close_rate_1_1": 0.0,
+      "role_pair_same_cell_rate_0_0": 0.0,
+      "role_pair_same_cell_rate_0_1": 0.0072992700729927005,
+      "role_pair_same_cell_rate_1_1": 0.0,
+      "episode_idx": 2
+    }
+  ]
+}

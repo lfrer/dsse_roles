@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "n_episodes": 500,
+    "success_rate": 0.78,
+    "reward_mean": 1.4496,
+    "reward_median": 1.8599999999999999,
+    "reward_p10": 0.0,
+    "reward_p50": 1.8599999999999999,
+    "reward_p90": 1.95,
+    "steps_mean": 34.04,
+    "steps_median": 15.0,
+    "steps_p10": 6.0,
+    "steps_p50": 15.0,
+    "steps_p90": 101.0,
+    "time_to_find_mean": 15.153846153846153,
+    "time_to_find_median": 12.0,
+    "time_to_find_p10": 6.0,
+    "time_to_find_p50": 12.0,
+    "time_to_find_p90": 23.100000000000023,
+    "unique_cells_total_mean": 25.26,
+    "revisit_fraction_mean": 0.32397162856181183,
+    "mean_revisit_gap_mean": 0.9074633720205232,
+    "search_actions_mean": 42.82,
+    "repeated_search_fraction_mean": 0.41123000629646433,
+    "co_occupancy_fraction_mean": 0.21578278499747702,
+    "mean_pairwise_distance_mean": 11.802978954392975,
+    "mean_prob_at_visit_mean": 0.023583061140446622,
+    "mean_prob_at_search_mean": 0.07970825705132788,
+    "entropy_drop_mean": -1.9500989541602294,
+    "backtrack_rate_mean": 4.950495049504951e-05,
+    "stay_rate_mean": 0.3081619766984322
+  },
+  "run_info": {
+    "checkpoint": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_cnn_S2/ray_res/DSSE_PPO_Baseline/PPO_CNN/PPO_DSSE_PPO_Baseline_b3484_00000_0_2026-04-14_13-47-23/checkpoint_000088",
+    "scenario": "configs/scenarios/S2_small_20x20_2drones_highDisp.json",
+    "model": "CNNModel"
+  },
+  "episodes_jsonl": "testresults/CNN/_tmp/S2/eval_metrics_cnn_PPO_CNN_checkpoint_000088.jsonl"
+}

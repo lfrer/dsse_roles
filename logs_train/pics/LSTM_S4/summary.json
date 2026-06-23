@@ -1,0 +1,47 @@
+{
+  "run_name": "LSTM_S4",
+  "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_lstm_S4_new_config/ray_res/DSSE_PPO_LSTM/PPO_LSTM/PPO_DSSE_PPO_LSTM_0c1ec_00000_0_2026-04-28_12-00-12",
+  "plots_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/pics/LSTM_S4",
+  "episode_reward_mean": {
+    "column": "env_runners/episode_reward_mean",
+    "last": 1.6697219430485764,
+    "max": 1.6794755817764666,
+    "min": 0.0563347763347763
+  },
+  "episode_len_mean": {
+    "column": "env_runners/episode_len_mean",
+    "last": 34.109547738693465,
+    "max": 148.69565217391303,
+    "min": 33.44444444444444
+  },
+  "entropy": {
+    "column": "info/learner/default_policy/learner_stats/entropy",
+    "last": 0.1551607651170343,
+    "max": 2.1957596627316733,
+    "min": 0.1455511862412095
+  },
+  "policy_loss": {
+    "column": "info/learner/default_policy/learner_stats/policy_loss",
+    "last": -0.0023901910716404,
+    "max": 0.0025008135809356,
+    "min": -0.0035716772536104
+  },
+  "vf_loss": {
+    "column": "info/learner/default_policy/learner_stats/vf_loss",
+    "last": 0.0824854794132989,
+    "max": 0.0912958484361297,
+    "min": 0.0013396751333505
+  },
+  "total_loss": {
+    "column": "info/learner/default_policy/learner_stats/total_loss",
+    "last": 0.0386973880146806,
+    "max": 0.0436690544906923,
+    "min": -0.0026460064401806
+  },
+  "kl": {
+    "column": "info/learner/default_policy/learner_stats/kl",
+    "last": 0.0037981986205225,
+    "max": 0.0077537302877413,
+    "min": 0.0020842720687105
+  }
+}

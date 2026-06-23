@@ -1,0 +1,47 @@
+{
+  "run_name": "cnn_S6",
+  "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/ppo_cnn_S6_new_conf/ray_res/DSSE_PPO_Baseline/PPO_CNN/PPO_DSSE_PPO_Baseline_4e784_00000_0_2026-05-05_10-06-23",
+  "plots_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_train/pics/cnn_S6",
+  "episode_reward_mean": {
+    "column": "env_runners/episode_reward_mean",
+    "last": 1.044266666666667,
+    "max": 1.2615555555555555,
+    "min": 0.0358288770053475
+  },
+  "episode_len_mean": {
+    "column": "env_runners/episode_len_mean",
+    "last": 117.48,
+    "max": 199.1818181818182,
+    "min": 88.44197530864197
+  },
+  "entropy": {
+    "column": "info/learner/default_policy/learner_stats/entropy",
+    "last": 0.7047810667504867,
+    "max": 2.195307997084156,
+    "min": 0.6880649252036183
+  },
+  "policy_loss": {
+    "column": "info/learner/default_policy/learner_stats/policy_loss",
+    "last": -0.0057751770754596,
+    "max": 0.0007717805451344,
+    "min": -0.007484145087316
+  },
+  "vf_loss": {
+    "column": "info/learner/default_policy/learner_stats/vf_loss",
+    "last": 0.0204488574676058,
+    "max": 0.031866396036801,
+    "min": 0.0006374374274354
+  },
+  "total_loss": {
+    "column": "info/learner/default_policy/learner_stats/total_loss",
+    "last": 0.0119808741192779,
+    "max": 0.0215009662020673,
+    "min": -0.0120260029351811
+  },
+  "kl": {
+    "column": "info/learner/default_policy/learner_stats/kl",
+    "last": 0.016621983567693,
+    "max": 0.0196860964468236,
+    "min": 0.00445619906527
+  }
+}
