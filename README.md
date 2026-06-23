@@ -1,6 +1,6 @@
 # Extending DSSE-Based MARL Algorithms with Emergent Roles for Maritime Search and Rescue
 
-This repository contains the code accompanying the master's thesis *"Extending
+This repository contains the code accompanying the research project *"Extending
 DSSE-Based MARL Algorithms with Emergent Roles for Maritime Search and
 Rescue."* It extends the CNN baseline from the
 [DSSE (Drone Swarm Search Environment)](https://pettingzoo.farama.org/)
@@ -13,7 +13,7 @@ learning (MARL) setting for search and rescue. Six scenarios (S1–S6) vary grid
 size (20×20 to 40×40), drone count (2, 4, or 6), and the dispersion of the
 target probability map.
 
-Models are trained with PPO (RLlib, old API stack) and evaluated on metrics
+Models are trained with PPO and evaluated on metrics
 such as success rate, time to find, search efficiency, and role-specific
 diagnostics (e.g. marginal role entropy, co-occupancy, and behavioral
 divergence between roles).
@@ -22,11 +22,13 @@ divergence between roles).
 
 - `src/models/` – CNN, CNN+LSTM, and R3DM role-augmented model variants
 - `src/policies/` – custom PPO policies implementing the R3DM role mechanism
-- `src/baselines/` – hyperparameter tuning scripts
+- `src/baselines/` – hyperparameter tuning and baseline training scripts
 - `src/tests/` – evaluation scripts for trained checkpoints
 - `logs_train/`, `logs_roles/` – training visualization utilities (`vis_training.py`, `vis_training_roles.py`)
+- `logs_tune/` – output logs from hyperparameter tuning jobs
 - `plotting/` – result plotting and comparison scripts
 - `testresults/` – evaluation results
+- `thesis_figures/` – figures used in the thesis
 - `configs/` – scenario and training configuration files
 
 ## Setup
