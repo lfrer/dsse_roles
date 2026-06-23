@@ -1,0 +1,208 @@
+{
+  "out_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/thesis_figures/role_training",
+  "smooth": 5,
+  "max_x": null,
+  "figures": {
+    "ablation_action_change_fraction": {
+      "metric": "ablation_action_change_fraction",
+      "out_path": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/thesis_figures/role_training/ablation_action_change_fraction.pdf",
+      "runs": {
+        "S1": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_S1/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_59786_00000_0_2026-04-27_10-51-58",
+          "x_column": "timesteps_total",
+          "y_column": "derived/r3dm_ablation_action_change_fraction",
+          "n_points": 1801,
+          "last_smoothed": 0.28882339069337554,
+          "max_smoothed": 0.9835560762789101,
+          "min_smoothed": 0.15453489484209004,
+          "status": "plotted"
+        },
+        "S2": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_S2/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_a225c_00000_0_2026-04-26_22-00-55",
+          "x_column": "timesteps_total",
+          "y_column": "derived/r3dm_ablation_action_change_fraction",
+          "n_points": 1799,
+          "last_smoothed": 0.5394108622416244,
+          "max_smoothed": 0.9866768080585947,
+          "min_smoothed": 0.1390975093119072,
+          "status": "plotted"
+        },
+        "S3": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_S3_new_config/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_c8392_00000_0_2026-04-29_10-45-32",
+          "x_column": "timesteps_total",
+          "y_column": "derived/r3dm_ablation_action_change_fraction",
+          "n_points": 1799,
+          "last_smoothed": 0.13745971157986042,
+          "max_smoothed": 0.5062283447651721,
+          "min_smoothed": 0.06208396504277276,
+          "status": "plotted"
+        },
+        "S4": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4_new_config/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_974ca_00000_0_2026-05-01_09-23-03",
+          "x_column": "timesteps_total",
+          "y_column": "derived/r3dm_ablation_action_change_fraction",
+          "n_points": 1799,
+          "last_smoothed": 0.2812258999753387,
+          "max_smoothed": 0.6758205974192331,
+          "min_smoothed": 0.03737749808651587,
+          "status": "plotted"
+        },
+        "S5": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s5/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_ed34e_00000_0_2026-05-05_23-46-52",
+          "x_column": "timesteps_total",
+          "y_column": "derived/r3dm_ablation_action_change_fraction",
+          "n_points": 452,
+          "last_smoothed": 0.1962848820036356,
+          "max_smoothed": 0.886886866897652,
+          "min_smoothed": 0.0036283160407192703,
+          "status": "plotted"
+        },
+        "S6": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s6_prev_role_coll/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_34e71_00000_0_2026-05-09_20-30-51",
+          "x_column": "timesteps_total",
+          "y_column": "derived/r3dm_ablation_action_change_fraction",
+          "n_points": 899,
+          "last_smoothed": 0.36733710806959946,
+          "max_smoothed": 0.8399707472497466,
+          "min_smoothed": 0.05946867328897176,
+          "status": "plotted"
+        }
+      },
+      "created": true
+    },
+    "marginal_role_entropy": {
+      "metric": "marginal_role_entropy",
+      "out_path": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/thesis_figures/role_training/marginal_role_entropy.pdf",
+      "runs": {
+        "S1": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_S1/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_59786_00000_0_2026-04-27_10-51-58",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/marginal_role_entropy",
+          "n_points": 1801,
+          "last_smoothed": 0.5010387471589175,
+          "max_smoothed": 0.6825188793919303,
+          "min_smoothed": 0.07253577566288802,
+          "status": "plotted"
+        },
+        "S2": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_S2/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_a225c_00000_0_2026-04-26_22-00-55",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/marginal_role_entropy",
+          "n_points": 1799,
+          "last_smoothed": 0.48203699473816225,
+          "max_smoothed": 0.6882915392427733,
+          "min_smoothed": 0.3180395332633971,
+          "status": "plotted"
+        },
+        "S3": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_S3_new_config/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_c8392_00000_0_2026-04-29_10-45-32",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/marginal_role_entropy",
+          "n_points": 1799,
+          "last_smoothed": 0.6190590746851657,
+          "max_smoothed": 0.6926688660436602,
+          "min_smoothed": 0.4000045411077188,
+          "status": "plotted"
+        },
+        "S4": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4_new_config/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_974ca_00000_0_2026-05-01_09-23-03",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/marginal_role_entropy",
+          "n_points": 1799,
+          "last_smoothed": 0.6888307641313904,
+          "max_smoothed": 0.6928256288622365,
+          "min_smoothed": 0.32643203332117104,
+          "status": "plotted"
+        },
+        "S5": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s5/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_ed34e_00000_0_2026-05-05_23-46-52",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/marginal_role_entropy",
+          "n_points": 452,
+          "last_smoothed": 0.6719867949432151,
+          "max_smoothed": 0.6909620205746083,
+          "min_smoothed": 0.5577079088883725,
+          "status": "plotted"
+        },
+        "S6": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s6_prev_role_coll/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_34e71_00000_0_2026-05-09_20-30-51",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/marginal_role_entropy",
+          "n_points": 899,
+          "last_smoothed": 0.5252858553946383,
+          "max_smoothed": 0.6924120028096115,
+          "min_smoothed": 0.45103468692394005,
+          "status": "plotted"
+        }
+      },
+      "created": true
+    },
+    "mean_max_role_prob": {
+      "metric": "mean_max_role_prob",
+      "out_path": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/thesis_figures/role_training/mean_max_role_prob.pdf",
+      "runs": {
+        "S1": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_S1/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_59786_00000_0_2026-04-27_10-51-58",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/mean_max_role_prob",
+          "n_points": 1801,
+          "last_smoothed": 0.999306889664043,
+          "max_smoothed": 0.9993504356976711,
+          "min_smoothed": 0.5705149816744255,
+          "status": "plotted"
+        },
+        "S2": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_S2/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_a225c_00000_0_2026-04-26_22-00-55",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/mean_max_role_prob",
+          "n_points": 1799,
+          "last_smoothed": 0.9986888805143336,
+          "max_smoothed": 0.9992440900743114,
+          "min_smoothed": 0.5779242399967078,
+          "status": "plotted"
+        },
+        "S3": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_S3_new_config/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_c8392_00000_0_2026-04-29_10-45-32",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/mean_max_role_prob",
+          "n_points": 1799,
+          "last_smoothed": 0.9985360576148421,
+          "max_smoothed": 0.9987861127125356,
+          "min_smoothed": 0.5204501176947978,
+          "status": "plotted"
+        },
+        "S4": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s4_new_config/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_974ca_00000_0_2026-05-01_09-23-03",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/mean_max_role_prob",
+          "n_points": 1799,
+          "last_smoothed": 0.9983596736979095,
+          "max_smoothed": 0.9986199908870639,
+          "min_smoothed": 0.5157308699506702,
+          "status": "plotted"
+        },
+        "S5": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s5/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_ed34e_00000_0_2026-05-05_23-46-52",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/mean_max_role_prob",
+          "n_points": 452,
+          "last_smoothed": 0.9935912295732475,
+          "max_smoothed": 0.9945526018592574,
+          "min_smoothed": 0.5319172539759656,
+          "status": "plotted"
+        },
+        "S6": {
+          "run_dir": "/vol/fob-vol1/nebenf23/baierluc/Sunny_Master/marl-dsse-roles/logs_roles/ppo_cnn_roles_s6_prev_role_coll/ray_res/DSSE_PPO_CNN_R3DM/PPO_CNN_R3DM/PPO_DSSE_PPO_CNN_R3DM_34e71_00000_0_2026-05-09_20-30-51",
+          "x_column": "timesteps_total",
+          "y_column": "info/learner/shared_policy/learner_stats/r3dm/mean_max_role_prob",
+          "n_points": 899,
+          "last_smoothed": 0.9980658518001579,
+          "max_smoothed": 0.9984457796930608,
+          "min_smoothed": 0.5282404577998715,
+          "status": "plotted"
+        }
+      },
+      "created": true
+    }
+  }
+}
