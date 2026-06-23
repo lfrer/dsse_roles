@@ -1,0 +1,11 @@
+setuptools<81
+DSSE
+torch
+numpy
+pyyaml
+ray
+ray[tune]
+lz4
+tensorflow
+scipy
+dm-tree
